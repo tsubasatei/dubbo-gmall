@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d394062b-10b2-4128-b4b1-8f140533ec47" name="Default Changelist" comment="" />
+    <list default="true" id="d394062b-10b2-4128-b4b1-8f140533ec47" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../boot-user-service-provider/src/main/java/com/xt/gmall/config/MyDubboConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boot-user-service-provider/src/main/resources/provider.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xt/gmall/service/impl/UserServiceImpl2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot-user-service-provider/src/main/java/com/xt/gmall/BootUserServiceProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot-user-service-provider/src/main/java/com/xt/gmall/BootUserServiceProviderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot-user-service-provider/src/main/java/com/xt/gmall/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../boot-user-service-provider/src/main/java/com/xt/gmall/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boot-user-service-provider/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../boot-user-service-provider/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order-service-consumer/src/main/resources/consumer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../order-service-consumer/src/main/resources/consumer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xt/gmall/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xt/gmall/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/provider.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../gmall-interface/target/" />
@@ -28,33 +40,34 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="69" />
-          <entry key="properties" value="15" />
-          <entry key="xml" value="46" />
+          <entry key="java" value="77" />
+          <entry key="properties" value="16" />
+          <entry key="xml" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="69" />
-          <entry key="Properties" value="15" />
-          <entry key="XML" value="46" />
+          <entry key="JAVA" value="77" />
+          <entry key="Properties" value="16" />
+          <entry key="XML" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="40" />
-          <entry key="java" value="815" />
-          <entry key="properties" value="352" />
-          <entry key="xml" value="1113" />
+          <entry key="java" value="2038" />
+          <entry key="properties" value="396" />
+          <entry key="txt" value="6" />
+          <entry key="xml" value="1240" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="815" />
-          <entry key="PLAIN_TEXT" value="40" />
-          <entry key="Properties" value="352" />
-          <entry key="XML" value="1113" />
+          <entry key="JAVA" value="2038" />
+          <entry key="PLAIN_TEXT" value="46" />
+          <entry key="Properties" value="396" />
+          <entry key="XML" value="1240" />
         </counts>
       </usages-collector>
     </session>
@@ -62,28 +75,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../order-service-consumer/src/main/resources/consumer.xml">
+        <entry file="file://$PROJECT_DIR$/../boot-user-service-provider/src/main/java/com/xt/gmall/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="26" column="50" lean-forward="true" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+            <state relative-caret-position="209">
+              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../gmall-interface/src/main/java/com/xt/gmall/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/provider.xml">
+        <entry file="file://$PROJECT_DIR$/../boot-user-service-provider/src/main/java/com/xt/gmall/BootUserServiceProviderApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xt/gmall/UserServiceProviderApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="42">
+              <caret line="21" column="65" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,36 +111,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xt/gmall/service/impl/UserServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/../boot-user-service-provider/src/main/java/com/xt/gmall/config/MyDubboConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="13" column="47" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="47" />
+            <state relative-caret-position="153">
+              <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../order-service-consumer/src/main/java/com/xt/gmall/OrderServiceConsumerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../order-service-consumer/src/main/java/com/xt/gmall/service/impl/OrderServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1846#1859#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,7 +134,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -146,6 +142,9 @@
         <entry key="$PROJECT_DIR$/../../lastwork/railwayOA/railwayOA/CRC_DAILY/crc_daily_web" value="PREVIEW" />
       </map>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../boot-user-service-provider/src/main/java/com/xt/gmall/config/MyDubboConfig.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -163,9 +162,7 @@
         <option value="$PROJECT_DIR$/../gmall-interface/pom.xml" />
         <option value="$PROJECT_DIR$/../gmall-interface/src/main/java/com/xt/gmall/service/OrderService.java" />
         <option value="$PROJECT_DIR$/../boot-order-service-consumer/src/main/java/com/xt/gmall/controller/OrderController.java" />
-        <option value="$PROJECT_DIR$/../boot-user-service-provider/src/main/java/com/xt/gmall/BootUserServiceProviderApplication.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/../boot-user-service-provider/src/main/java/com/xt/gmall/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/../boot-order-service-consumer/src/main/java/com/xt/gmall/BootOrderServiceConsumerApplication.java" />
         <option value="$PROJECT_DIR$/../boot-order-service-consumer/src/main/java/com/xt/gmall/service/impl/OrderServiceImpl.java" />
         <option value="$PROJECT_DIR$/../boot-order-service-consumer/src/main/resources/application.properties" />
@@ -174,11 +171,17 @@
         <option value="$PROJECT_DIR$/../boot-user-service-provider/pom.xml" />
         <option value="$PROJECT_DIR$/../boot-order-service-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/../boot-user-service-provider/src/main/resources/dubbo.properties" />
-        <option value="$PROJECT_DIR$/../boot-user-service-provider/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/../order-service-consumer/src/main/java/com/xt/gmall/OrderServiceConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xt/gmall/service/impl/UserServiceImpl2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xt/gmall/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../order-service-consumer/src/main/resources/consumer.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/provider.xml" />
+        <option value="$PROJECT_DIR$/../order-service-consumer/src/main/resources/consumer.xml" />
+        <option value="$PROJECT_DIR$/../gmall-interface/src/main/java/com/xt/gmall/service/impl/UserServiceStub.java" />
+        <option value="$PROJECT_DIR$/../boot-user-service-provider/src/main/resources/provider.xml" />
+        <option value="$PROJECT_DIR$/../boot-user-service-provider/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/../boot-user-service-provider/src/main/java/com/xt/gmall/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../boot-user-service-provider/src/main/java/com/xt/gmall/BootUserServiceProviderApplication.java" />
+        <option value="$PROJECT_DIR$/../boot-user-service-provider/src/main/java/com/xt/gmall/config/MyDubboConfig.java" />
       </list>
     </option>
   </component>
@@ -224,9 +227,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="282" />
-    <option name="y" value="102" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
     <option name="width" value="1420" />
     <option name="height" value="985" />
   </component>
@@ -256,6 +259,82 @@
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="user-service-provider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="boot-user-service-provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="user-service-provider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="boot-user-service-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="user-service-provider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="boot-user-service-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="user-service-provider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="boot-user-service-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="user-service-provider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="boot-user-service-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="user-service-provider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="boot-user-service-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="user-service-provider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall-interface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="user-service-provider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="user-service-provider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="user-service-provider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="user-service-provider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="user-service-provider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gmall-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="user-service-provider" type="b2602c69:ProjectViewProjectNode" />
               <item name="order-service-consumer" type="462c0819:PsiDirectoryNode" />
@@ -356,22 +435,23 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3500986" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\ideaProjects\dubbo\user-service-provider\src\main\resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaProjects\dubbo\boot-user-service-provider\src\main\resources" />
+      <recent name="D:\ideaProjects\dubbo\user-service-provider\src\main\java\com\xt\gmall\service" />
+      <recent name="D:\ideaProjects\dubbo\user-service-provider\src\main\java\com\xt\gmall\bean" />
+      <recent name="D:\ideaProjects\dubbo\user-service-provider\src\main\java\com\xt\gmall\service\impl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.xt.gmall.service.impl" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\ideaProjects\dubbo\user-service-provider\src\main\java\com\xt\gmall\service" />
-      <recent name="D:\ideaProjects\dubbo\user-service-provider\src\main\java\com\xt\gmall\bean" />
-      <recent name="D:\ideaProjects\dubbo\user-service-provider\src\main\java\com\xt\gmall\service\impl" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ideaProjects\dubbo\user-service-provider\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -386,7 +466,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UserServiceProviderApplication">
+  <component name="RunManager" selected="Spring Boot.BootUserServiceProviderApplication">
     <configuration name="OrderServiceConsumerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xt.gmall.OrderServiceConsumerApplication" />
       <module name="order-service-consumer" />
@@ -444,20 +524,21 @@
       <option name="presentableId" value="Default" />
       <updated>1569208377964</updated>
       <workItem from="1569208383639" duration="19216000" />
-      <workItem from="1569297670808" duration="13311000" />
+      <workItem from="1569297670808" duration="19643000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32527000" />
+    <option name="totallyTimeSpent" value="38859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="UI Designer" order="0" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.23793566" />
+      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.23726542" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
@@ -466,7 +547,7 @@
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50067025" side_tool="true" weight="0.39589444" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49932975" visible="true" weight="0.36563876" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49932975" visible="true" weight="0.5624082" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
@@ -484,13 +565,13 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.3297587" />
     </layout>
     <layout-to-restore>
       <window_info id="UI Designer" order="0" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.23793566" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.23726542" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
@@ -499,7 +580,7 @@
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50067025" side_tool="true" weight="0.39589444" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49932975" visible="true" weight="0.36563876" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49932975" weight="0.36563876" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
@@ -531,13 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
           <caret line="74" column="52" lean-forward="true" selection-start-line="74" selection-start-column="52" selection-end-line="74" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall-interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -577,16 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-95">
           <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../boot-user-service-provider/src/main/java/com/xt/gmall/BootUserServiceProviderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -643,33 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../boot-user-service-provider/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gmall-interface/src/main/java/com/xt/gmall/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../boot-user-service-provider/src/main/java/com/xt/gmall/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/software/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/concurrent/TimeUnit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -697,27 +734,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xt/gmall/UserServiceProviderApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xt/gmall/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="266">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../order-service-consumer/src/main/resources/consumer.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xt/gmall/service/impl/UserServiceImpl2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="26" column="50" lean-forward="true" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+        <state relative-caret-position="133">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xt/gmall/service/impl/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xt/gmall/UserServiceProviderApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="13" column="47" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="47" />
+        <state relative-caret-position="154">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -726,8 +763,100 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/provider.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+        <state relative-caret-position="76">
+          <caret line="16" column="84" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall-interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="668" column="19" selection-start-line="668" selection-start-column="19" selection-end-line="668" selection-end-column="19" />
+          <folding>
+            <element signature="e#24832#24833#0" expanded="true" />
+            <element signature="e#24872#24873#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../order-service-consumer/src/main/resources/consumer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall-interface/src/main/java/com/xt/gmall/service/impl/UserServiceStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../boot-user-service-provider/src/main/resources/provider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../boot-user-service-provider/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gmall-interface/src/main/java/com/xt/gmall/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../boot-user-service-provider/src/main/java/com/xt/gmall/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../boot-user-service-provider/src/main/java/com/xt/gmall/config/MyDubboConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1846#1859#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../boot-user-service-provider/src/main/java/com/xt/gmall/BootUserServiceProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="21" column="65" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
