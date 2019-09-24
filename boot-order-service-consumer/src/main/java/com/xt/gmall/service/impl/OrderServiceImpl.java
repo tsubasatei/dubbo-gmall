@@ -17,15 +17,13 @@ import java.util.List;
  */
 @Service
 public class OrderServiceImpl implements OrderService {
-    @Reference
+//    @Reference(url="127.0.0.1:20880")  // dubbo 直连
+    @Reference(loadbalance="random", timeout=1000) // 负载均衡
     UserService userService;
     // 查询用户的收货地址
     public List<UserAddress> initOrder(String userId) {
         System.out.println("用户ID: " + userId);
         List<UserAddress> userAddressList = userService.getUserAddressList(userId);
-        for (UserAddress userAddress : userAddressList) {
-            System.out.println(userAddress);
-        }
         return userAddressList;
     }
 }
