@@ -1,11 +1,13 @@
 package com.xt.gmall.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Reference;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.xt.gmall.bean.UserAddress;
 import com.xt.gmall.service.OrderService;
 import com.xt.gmall.service.UserService;
 import org.springframework.stereotype.Service;
 
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -21,9 +23,13 @@ public class OrderServiceImpl implements OrderService {
     @Reference(loadbalance="random", timeout=1000) // 负载均衡
     UserService userService;
     // 查询用户的收货地址
+    @HystrixCommand(fallbackMethod = "hello")
     public List<UserAddress> initOrder(String userId) {
         System.out.println("用户ID: " + userId);
         List<UserAddress> userAddressList = userService.getUserAddressList(userId);
         return userAddressList;
+    }
+    public List<UserAddress> hello(String userId) {
+        return Arrays.asList(new UserAddress(0, "测试地址", "0", "测试", "测试", "Y"));
     }
 }

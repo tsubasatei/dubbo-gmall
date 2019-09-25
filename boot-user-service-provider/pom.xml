@@ -42,7 +42,13 @@
             <version>0.2.0</version>
         </dependency>
 
-    </dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>
+                spring-cloud-starter-netflix-hystrix
+            </artifactId>
+        </dependency>
+        </dependencies>
 
     <build>
         <plugins>
@@ -52,5 +58,17 @@
             </plugin>
         </plugins>
     </build>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Finchley.SR1</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 </project>
