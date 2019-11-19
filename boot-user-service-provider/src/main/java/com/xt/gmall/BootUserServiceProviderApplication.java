@@ -21,7 +21,7 @@ import org.springframework.context.annotation.ImportResource;
  */
 //@EnableDubbo // 开启基于注解的 dubbo 功能，第一种方式
 //@ImportResource(locations = "classpath:provider.xml")  // 第二种方式
-@EnableDubbo // 第三种方式：包扫描
+@EnableDubbo // 第三种方式：包扫描 + 配置类
 @EnableHystrix  // 开启服务容错
 @SpringBootApplication
 public class BootUserServiceProviderApplication {

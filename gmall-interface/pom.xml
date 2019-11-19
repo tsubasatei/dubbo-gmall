@@ -7,5 +7,5 @@
     <groupId>com.xt.gmall</groupId>
     <artifactId>gmall-interface</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+    <description>公共接口</description>
 </project>

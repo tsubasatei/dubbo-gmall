@@ -29,6 +29,7 @@ public class OrderServiceImpl implements OrderService {
         List<UserAddress> userAddressList = userService.getUserAddressList(userId);
         return userAddressList;
     }
+    
     public List<UserAddress> hello(String userId) {
         return Arrays.asList(new UserAddress(0, "测试地址", "0", "测试", "测试", "Y"));
     }
